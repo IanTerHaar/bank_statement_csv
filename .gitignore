@@ -1,0 +1,44 @@
+# Visual Studio specific
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+bin/
+obj/
+debug/
+release/
+TestResults/
+*.pdb
+*.exe
+*.dll
+*.log
+
+# NuGet packages
+*.nupkg
+packages/
+!packages/repositories.config
+
+# Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Publish artifacts
+publish/
+*.publishproj
+
+# Rider files
+.idea/
+*.iml
+
+# Local configuration
+appsettings.json
+appsettings.Development.json
+secrets.json
